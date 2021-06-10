@@ -1,0 +1,23 @@
+{
+  "name": "clase2",
+  "version": "1.0.0",
+  "description": "FUNDAMENTOS DE PROGRAMACIÓN EN JAVASCRIPT\r Comprendiendo Asincronía en Javascript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node promiseMovies.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotopro/Sm4_Sesion_2_RNative03.git"
+  },
+  "author": "Daniel Soto <dasg.1993@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sotopro/Sm4_Sesion_2_RNative03/issues"
+  },
+  "homepage": "https://github.com/sotopro/Sm4_Sesion_2_RNative03#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "request": "^2.88.2"
+  }
+}
