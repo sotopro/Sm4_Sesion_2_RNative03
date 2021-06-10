@@ -121,3 +121,40 @@ const message = async () => {
 }
 
 message();
+
+async function hello() {
+    return `Hello Alligator`;
+}
+
+hello().then(result => console.log(result));
+
+const yayOrNay = () => {
+    return new Promise((resolve, reject) => {
+        const value = Math.round(Math.random() * 1); // 0 or 1, at random
+
+        value ? resolve('Lucky!!') : reject('Nope 😡')
+    })
+}
+
+
+const messageLottery = async () => {
+    try {
+        const msg = await yayOrNay();
+        console.log(msg)
+    } catch(err) {
+        console.log(err)
+    }
+}
+
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
+messageLottery();
