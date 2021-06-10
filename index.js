@@ -111,9 +111,11 @@ const where = () => {
 }
 
 const message = async () => {
-    const a = await who();
-    const b = await what();
-    const c = await where();
+    // const a = await who();
+    // const b = await what();
+    // const c = await where();
+
+    const [a,b,c] = await Promise.all([who(), what(), where()]);
 
     console.log(`${a} ${b} ${c}`)
 }
