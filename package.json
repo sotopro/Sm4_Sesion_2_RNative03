@@ -4,7 +4,7 @@
   "description": "FUNDAMENTOS DE PROGRAMACIÓN EN JAVASCRIPT\r Comprendiendo Asincronía en Javascript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node promiseMovies.js"
+    "start": "node asyncMovies.js"
   },
   "repository": {
     "type": "git",
